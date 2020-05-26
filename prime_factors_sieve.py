@@ -11,6 +11,6 @@ def prime_factors(n):
     while n!=1:
         print(spf[n])
         n = n//spf[n]
-prime_factors(45)
+prime_factors(120)
 
         
